@@ -1,5 +1,5 @@
 body {
-	background-color: black;
+	background-color: white;
 }
 h3 {
 	display: inline-block;
@@ -10,7 +10,7 @@ h3 {
 
 
 .header {
-	background-color: black;
+	background-color: #5f7c86;
 	margin-bottom: 30px;
 }
 
@@ -20,21 +20,38 @@ h3 {
 
 body {
 	font-family: 'Lato', sans-serif;
+	color : lightgrey;
+
 }
 #logo {
 	float : right;
 }
 .main {
-	margin: 20px;
+	margin: 30px;
 }
 h1 {
 	font-weight: bold;
 	font-size: 50px;
+
 }
 .fa {
-	color : red;
-	margin-right: 10px;
+	color : grey;
+	margin-right: 20px;
 }
-.fab {
-	color : red;
+#projects {
+	height: 50px;
+	width : 150px;
+	margin: 30px;
+	font-color : grey;
+	font-size: 20px;
+}
+#projects:hover {
+	background-color: #5f7c86;
+}
+
+a:link {
+	color : #5f7c86 ;
+}
+a:visited {
+	color : grey;
 }
