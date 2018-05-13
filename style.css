@@ -1,0 +1,40 @@
+body {
+	background-color: black;
+}
+h3 {
+	display: inline-block;
+	color: white;
+	margin: 20px;
+	font-size: 14px;
+}
+
+
+.header {
+	background-color: black;
+	margin-bottom: 30px;
+}
+
+.container {
+	text-align: center
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+#logo {
+	float : right;
+}
+.main {
+	margin: 20px;
+}
+h1 {
+	font-weight: bold;
+	font-size: 50px;
+}
+.fa {
+	color : red;
+	margin-right: 10px;
+}
+.fab {
+	color : red;
+}
