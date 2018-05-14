@@ -1,5 +1,7 @@
 body {
 	background-color: white;
+	font-family: 'Lato', sans-serif;
+	color : lightgrey;
 }
 h3 {
 	display: inline-block;
@@ -8,7 +10,7 @@ h3 {
 	font-size: 14px;
 }
 
-
+/*Main Page*/
 .header {
 	background-color: #5f7c86;
 	margin-bottom: 30px;
@@ -18,11 +20,6 @@ h3 {
 	text-align: center
 }
 
-body {
-	font-family: 'Lato', sans-serif;
-	color : lightgrey;
-
-}
 #logo {
 	float : right;
 }
@@ -37,21 +34,38 @@ h1 {
 .fa {
 	color : grey;
 	margin-right: 20px;
+	margin-top: 20px;
 }
 #projects {
 	height: 50px;
 	width : 150px;
 	margin: 30px;
-	font-color : grey;
+	color : #5f7c86;
 	font-size: 20px;
 }
 #projects:hover {
-	background-color: #5f7c86;
+	background-color: lightgrey;
 }
 
 a:link {
-	color : #5f7c86 ;
+	color : white ;
 }
 a:visited {
-	color : grey;
+	color : white;
+}
+
+/*Projects Page*/
+.card {
+	margin : 20px;
+}
+#creep {
+	color : red;
+}
+#logo {
+	border-right: solid;
+
+}
+.card-header {
+	font-size: 30px;
+	font-weight: bolder;
 }

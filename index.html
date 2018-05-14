@@ -20,9 +20,9 @@
 		<h1 class="main">Nathan Bos</h1>
 	</div>
 	<div class="header">
-		<h3>Home</h3>
-		<h3>Projects</h3>
-		<h3>Contact</h3>
+		<h3><a href="index.html">Home</a></h3>
+		<h3><a href="projects.html">Projects</a></h3>
+		<h3><a href="mailto:nbos0531@gmail.com">Contact</a></h3>
 		<h3 id="logo">NB</h3>
 	</div>
 
@@ -30,7 +30,7 @@
 
 		<!-- <h1 class="main">Nathan Bos</h1> -->
 		<h2 class="main">Full Stack Web Developer</h2>
-		<button id="projects"><a href="projects.html">Projects</a></button>
+		<button id="projects">Projects</button>
 		<br><br><br>
 		<p class="main">Contact Me</p>
 		<p>
@@ -43,7 +43,9 @@
 
 
   <script>
-
+  	$("#projects").on("click", function() {
+  		window.location = "projects.html";
+  	});
 
   </script>
 	
