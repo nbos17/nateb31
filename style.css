@@ -36,16 +36,16 @@ h1 {
 .fa {
 	color : grey;
 	margin-right: 20px;
-	margin-top: 20px;
+	margin-top: 10px;
 }
-#projects {
+.projects {
 	height: 50px;
 	width : 150px;
 	margin: 30px;
 	color : #5f7c86;
 	font-size: 20px;
 }
-#projects:hover {
+.projects:hover {
 	background-color: lightgrey;
 }
 
@@ -54,6 +54,10 @@ a:link {
 }
 a:visited {
 	color : white;
+}
+#nathan {
+	margin-left: 20px;
+	margin-bottom: 20px;
 }
 
 /*Projects Page*/
@@ -82,4 +86,13 @@ a:visited {
 .learn {
 	background-color: #5f7c86;
 	margin-top: 20px;
+	border-style: none;
+	height : 40px;
+	width: 125px
+}
+.learn:hover {
+	background-color: grey;
+}
+#myProjects {
+	margin-bottom: 40px;
 }
