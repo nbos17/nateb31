@@ -14,10 +14,12 @@ h3 {
 .header {
 	background-color: #5f7c86;
 	margin-bottom: 30px;
+	width : 100%;
 }
 
 .container {
-	text-align: center
+	text-align: center;
+	margin: 0 auto;
 }
 
 #logo {
@@ -57,9 +59,15 @@ a:visited {
 /*Projects Page*/
 .card {
 	margin : 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	align-content: center;
+
 }
 #creep {
-	color : red;
+	margin-top: 20px;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
 }
 #logo {
 	border-right: solid;
@@ -68,4 +76,10 @@ a:visited {
 .card-header {
 	font-size: 30px;
 	font-weight: bolder;
+	background-color : #5f7c86;
+
+}
+.learn {
+	background-color: #5f7c86;
+	margin-top: 20px;
 }
