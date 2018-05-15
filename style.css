@@ -96,3 +96,7 @@ a:visited {
 #myProjects {
 	margin-bottom: 40px;
 }
+
+@media screen and (max-width: 995px) {
+	
+}
