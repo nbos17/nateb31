@@ -27,11 +27,16 @@ h3 {
 }
 .main {
 	margin: 30px;
+	font-family: 'Inconsolata', monospace;
 }
 h1 {
 	font-weight: bold;
 	font-size: 50px;
+	font-family: 'Inconsolata', monospace;
 
+}
+#contactInfo {
+	font-family: 'Inconsolata', monospace;
 }
 .fa {
 	color : grey;
