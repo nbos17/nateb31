@@ -231,14 +231,20 @@ transition: all 0.4s ease 0s;
 
 @media screen and (max-width : 800px){
   .mobile-menu .lines {
-    border-bottom: 15px double #f8f8f8; 
+    /*border-bottom: 15px double #f8f8f8; */
     content:"";
-    height: 5px; 
-    width:25px;
+/*    height: 5px; 
+    width:25px;*/
     padding-right:15px;
     margin-right: 20px;
   	float: right;
 }
+	.singleLine {
+		width: 35px;
+    height: 5px;
+    background-color: white;
+    margin-bottom: 5px;
+	}
 	/*Make dropdown links appear inline*/
 	.mobile-menu ul {
 		position: static;
