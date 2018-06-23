@@ -49,9 +49,11 @@ h1 {
 	margin: 30px;
 	color : #5f7c86;
 	font-size: 20px;
+	font-family: 'Inconsolata', monospace;
+	text-transform: uppercase;
 }
 .projects:hover {
-	background-color: lightgrey;
+	background-color: #4db3ff;
 }
 
 a:link {
@@ -115,26 +117,26 @@ a:visited {
 
 /*Navbar Menu*/
 .mobile-menu {
-  display:block;
-  width:100%;
-background: #5f7c86/*e0b88f/*c99393/*e5d1a4/*dcc591/*EFD3A3*/;
-line-height: 1.6em;
-font-weight: 400;
-width:100%;
-text-align:center;
+	display:block;
+	width:100%;
+	background: #5f7c86/*e0b88f/*c99393/*e5d1a4/*dcc591/*EFD3A3*/;
+	line-height: 1.6em;
+	font-weight: 400;
+	width:100%;
+	text-align:center;
 	position: relative;
-  margin:0 auto;
+	margin:0 auto;
 }
 /*Strip the ul of padding and list styling*/
 .mobile-menu ul {
 	list-style-type:none;
-  margin: 0 auto;
-  padding-left:0;
-  text-align:center;
-  width:100%;
-  position: absolute;
-  background: #5f7c86;
-}
+	margin: 0 auto;
+	padding-left:0;
+	text-align:center;
+	width:100%;
+	position: absolute;
+	background: #5f7c86;
+	}
 
 /*Create a horizontal list with spacing*/
 .mobile-menu li {
@@ -151,16 +153,16 @@ text-align:center;
 	font-family: 'Inconsolata', monospace;
 	font-size: 20px;
 	color: #fff;
-  text-transform:uppercase;
+	text-transform:uppercase;
 	background: ##5f7c86;
 	text-decoration: none;
-  margin-left:-5px;
-  padding: 10px 0;  
--webkit-transition: all 0.4s ease 0s;
--moz-transition: all 0.4s ease 0s;
--ms-transition: all 0.4s ease 0s;
--o-transition: all 0.4s ease 0s;
-transition: all 0.4s ease 0s;
+	margin-left:-5px;
+	padding: 10px 0;  
+	-webkit-transition: all 0.4s ease 0s;
+	-moz-transition: all 0.4s ease 0s;
+	-ms-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
 }
 
 /*Hover state for top level links*/
