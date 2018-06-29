@@ -18,6 +18,7 @@ h3 {
 .container {
 	text-align: center;
 	margin: 0 auto;
+
 }
 
 .description {
@@ -97,7 +98,7 @@ a:visited {
 }
 .learn {
 	background-color: #5f7c86;
-	margin-top: 20px;
+	margin-top: 40px;
 	border-style: none;
 	height : 40px;
 	width: 125px
@@ -111,6 +112,7 @@ a:visited {
 
 #firstRow {
 	margin-top: 100px;
+	color: #5f7c86;
 }
 
 
