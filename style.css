@@ -234,6 +234,15 @@ a:visited {
 
 /*Responsive Styles*/
 
+@media screen and (max-width: 990px) {
+	.col-md-2 {
+		margin-right: 200px;
+	}
+	.learn {
+		margin-left: 30px;
+	}
+}
+
 @media screen and (max-width : 800px){
   .mobile-menu .lines {
     /*border-bottom: 15px double #f8f8f8; */
