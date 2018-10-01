@@ -1,7 +1,13 @@
-body {
-	background-color: white;
+html {
+	width: 100%;
+	background-image: url('assets/background3.jpg');
 	font-family: 'Lato', sans-serif;
-	color : lightgrey;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+.row {
+	margin: 0px;
 }
 h3 {
 	display: inline-block;
@@ -12,8 +18,33 @@ h3 {
 	padding: 5px;
 
 }
+#nav {
+	background-color: #5f7c86;
+}
+ul {
+	margin: 0 auto;
+	width: 490px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+li {
+	text-align: center;
+	height: 40px;
+	width: 120px;
+	padding-top: 10px;
+	list-style-type: none;
+	font-family: 'Inconsolata', monospace;
+	font-size: 1.25rem;
+	text-transform: uppercase;
+}
+li:hover {
+	background-color: black;
+}
+
 
 /*Main Page*/
+
 
 .container {
 	text-align: center;
@@ -22,22 +53,24 @@ h3 {
 }
 
 .description {
-	margin: 30px;
 	font-family: 'Inconsolata', monospace;
+	margin-bottom: 20px;
 }
 .main {
-	margin-top: 100px;
+	margin-top: 50px;
 	margin-bottom: 30px;
 	font-family: 'Inconsolata', monospace;
-}
-h1 {
 	font-weight: bold;
-	font-size: 50px;
-	font-family: 'Inconsolata', monospace;
+	font-size: 3rem;
+}
 
+h2 {
+	font-size: 2rem;
 }
 #contactInfo {
 	font-family: 'Inconsolata', monospace;
+	margin-bottom: 20px;
+	color: #5f7c86;
 }
 .fa {
 	color : grey;
@@ -48,7 +81,7 @@ h1 {
 	height: 50px;
 	width : 150px;
 	margin: 30px;
-	color : #5f7c86;
+	background-color : #5f7c86;
 	font-size: 20px;
 	font-family: 'Inconsolata', monospace;
 	text-transform: uppercase;
@@ -121,29 +154,6 @@ img:hover {
     -ms-transform: scale(1.3);
     transform: scale(1.3);
 }
-
-/*Navbar Menu*/
-.mobile-menu {
-	display:block;
-	width:100%;
-	background: #5f7c86/*e0b88f/*c99393/*e5d1a4/*dcc591/*EFD3A3*/;
-	line-height: 1.6em;
-	font-weight: 400;
-	width:100%;
-	text-align:center;
-	position: relative;
-	margin:0 auto;
-}
-/*Strip the ul of padding and list styling*/
-.mobile-menu ul {
-	list-style-type:none;
-	margin: 0 auto;
-	padding-left:0;
-	text-align:center;
-	width:100%;
-	position: absolute;
-	background: #5f7c86;
-	}
 
 /*Create a horizontal list with spacing*/
 .mobile-menu li {
