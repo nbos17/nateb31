@@ -93,6 +93,13 @@ li {
 
 }
 
+h1 {
+	font-size: 3rem;
+	display: block;
+	margin: 20px auto;
+	font-family: 'Inconsolata', monospace;
+	font-weight: bold;
+}
 .description {
 	font-family: 'Inconsolata', monospace;
 	margin-bottom: 20px;
@@ -109,6 +116,14 @@ li {
 }
 h2 {
 	font-size: 2rem;
+	display: block;
+	margin: 20px auto;
+	font-family: 'Inconsolata', monospace;
+	font-weight: bold;
+}
+.btn-group {
+	/* display: inline; */
+	margin: 0 auto;
 }
 #contactInfo {
 	font-family: 'Inconsolata', monospace;
@@ -121,10 +136,11 @@ h2 {
 	margin-top: 10px;
 }
 .projects {
-	height: 50px;
-	width : 150px;
+	height: 100px;
+	width : 250px;
 	margin: 30px;
 	background-color : #5f7c86;
+	color: white;
 	font-size: 20px;
 	font-family: 'Inconsolata', monospace;
 	text-transform: uppercase;
