@@ -1,10 +1,12 @@
-html {
+body {
 	width: 100%;
-	background-image: url('assets/background3.jpg');
+	/* background-image: url('assets/home.jpg');
 	font-family: 'Lato', sans-serif;
 	background-repeat: no-repeat;
-	background-size: cover;
-	height: 100%;
+	background-size: auto;
+	font-family: 'Montserrat', sans-serif; 
+	min-height: 1100px;  */
+	overflow-y: hidden
 }
 .row {
 	margin: 0px;
@@ -20,7 +22,8 @@ h3 {
 }
 /* Nav bar */
 #nav {
-	background-color: #5f7c86;
+	background-color: black;
+	opacity: .2;
 	display: block;
 }
 ul {
@@ -86,7 +89,16 @@ li {
 
 /*Main Page*/
 
+.main-content {
+		background-image: url('assets/home.jpg');
+		font-family: 'Lato', sans-serif;
+		background-repeat: no-repeat;
+		height: 1100px;
+		background-size: cover;
+		/* background-size: 100% auto;  */
+		 
 
+}
 .container {
 	text-align: center;
 	margin: 0 auto;
@@ -96,9 +108,11 @@ li {
 h1 {
 	font-size: 3rem;
 	display: block;
-	margin: 20px auto;
-	font-family: 'Inconsolata', monospace;
+	margin: 100px auto;
+	text-align: center;
+	/* font-family: 'Inconsolata', monospace; */
 	font-weight: bold;
+	color:white;
 }
 .description {
 	font-family: 'Inconsolata', monospace;
